@@ -96,8 +96,14 @@ vim.g.have_nerd_font = false
 -- [[ Setting options ]]
 require 'options'
 
+-- [[ Setting custom options ]]
+require 'custom.options'
+
 -- [[ Basic Keymaps ]]
 require 'keymaps'
+
+-- [[ Custom Keymaps ]]
+require 'custom.keymaps'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 require 'lazy-bootstrap'
